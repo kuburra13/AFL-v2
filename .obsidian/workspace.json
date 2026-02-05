@@ -1,0 +1,233 @@
+{
+  "main": {
+    "id": "ec3d4708ae83dd23",
+    "type": "split",
+    "children": [
+      {
+        "id": "6d1a00d7a7c3c278",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fdd45699fae47856",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "433a589584370497",
+    "type": "split",
+    "children": [
+      {
+        "id": "e199d1954ca7188b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c28b9af23b3be125",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "8e438c57af356ecc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "[\"year\"]",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "7e6dcf1cab84e453",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 298.5040512084961
+  },
+  "right": {
+    "id": "6bf8f5ef3a98ecea",
+    "type": "split",
+    "children": [
+      {
+        "id": "fc2ce49145d45908",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0858c07855925ab7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Templates/Player Career Totals.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Player Career Totals"
+            }
+          },
+          {
+            "id": "5a557b958f589976",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Templates/Player Career Totals.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Player Career Totals"
+            }
+          },
+          {
+            "id": "cb27828c097777c5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f34d8a66c4b568f6",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "651cc683a7789332",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Templates/Player Career Totals.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Player Career Totals"
+            }
+          },
+          {
+            "id": "efd78b88670af240",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {},
+              "icon": "lucide-info",
+              "title": "File properties"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "local-backup:Run local backup": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "c28b9af23b3be125",
+  "lastOpenFiles": [
+    "Players/Harry Charleson.md",
+    "AFL/Seasons/Harry Charleson 2026.md",
+    "AFL/Seasons/Harry Barnett 2026.md",
+    "Players/Harry Barnett.md",
+    "AFL/Seasons/Harry Armstrong 2026.md",
+    "Players/Harry Armstrong.md",
+    "AFL/Seasons/Harrison Ramm 2026.md",
+    "Players/Harrison Ramm.md",
+    "AFL/Seasons/Harrison Oliver 2026.md",
+    "AFL/Seasons/Harrison Petty 2026.md",
+    "01 inbox/players/2025/Harrison Oliver 11.md",
+    "Players/Harrison Petty.md",
+    "Players/Harrison Oliver.md",
+    "Players/Harrison Jones.md",
+    "AFL/Seasons/Harrison Jones 2026.md",
+    "AFL/Seasons/Harris Andrews 2026.md",
+    "Players/Harris Andrews.md",
+    "AFL/Seasons/Harley Reid 2026.md",
+    "Players/Harley Reid.md",
+    "AFL/Seasons/Hamish Davis 2026.md",
+    "Players/Hamish Davis.md",
+    "01 inbox/players/retired/Brodie Smith.md",
+    "AFL/Seasons/Brodie Smith 2025.md",
+    "Players/Brodie Smith.md",
+    "AFL/Seasons/Gryan Miers 2026.md",
+    "Players/Gryan Miers.md",
+    "Dashboards/AFL Base.base",
+    "AFL/Seasons/2022",
+    "AFL/Seasons/2026",
+    "AFL/Seasons/2025",
+    "AFL/Seasons/2024",
+    "AFL/Seasons/2023",
+    "Untitled",
+    "01 inbox",
+    "Teams/Teams",
+    "Teams/2025"
+  ]
+}

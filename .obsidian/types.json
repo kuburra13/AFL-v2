@@ -1,0 +1,20 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "games": "number",
+    "goals": "number",
+    "disposals": "number",
+    "marks": "number",
+    "tackles": "number",
+    "af": "number",
+    "rating": "number",
+    "Debut": "number",
+    "clr": "number",
+    "kicks": "number",
+    "handballs": "number",
+    "Year": "number",
+    "Watchlist": "checkbox"
+  }
+}
