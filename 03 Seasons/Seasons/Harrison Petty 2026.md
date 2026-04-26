@@ -1,0 +1,16 @@
+---
+player:
+player_link:
+team:
+Year:
+games:
+af:
+rating:
+goals:
+disposals:
+marks:
+tackles:
+clr:
+kicks:
+handballs:
+---
