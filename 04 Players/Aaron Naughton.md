@@ -1,7 +1,7 @@
 ---
-Debut: 2018
 Position:
 Watchlist:
+Debut:
 ---
 # Aaron Naughton
 
@@ -12,8 +12,8 @@ Watchlist:
 
 ## Team History
 ```dataviewjs
-const seasons = dv.pages('"AFL/Seasons"')
-  .where(s => s.player_link && s.player_link.path === dv.current().file.path)
+const seasons = dv.pages()
+  .where(s => s.file.path.startsWith("03 Seasons/") && s.player_link && s.player_link.path === dv.current().file.path)
   .sort(s => s.Year, 'desc');
 
 const seen = new Set();
@@ -32,8 +32,8 @@ dv.table(["First Year", "Team"], rows);
 
 ## Career Summary
 ```dataviewjs
-const seasons = dv.pages('"AFL/Seasons"')
-  .where(p => p.player_link && p.player_link.path === dv.current().file.path);
+const seasons = dv.pages()
+  .where(p => p.file.path.startsWith("03 Seasons/") && p.player_link && p.player_link.path === dv.current().file.path);
 
 function n(v) {
   return typeof v === "number" ? v : Number(v) || 0;
@@ -57,8 +57,8 @@ dv.table(
 
 ## Players Career
 ```dataviewjs
-const seasons = dv.pages('"AFL/Seasons"')
-  .where(p => p.player_link && p.player_link.path === dv.current().file.path)
+const seasons = dv.pages()
+  .where(p => p.file.path.startsWith("03 Seasons/") && p.player_link && p.player_link.path === dv.current().file.path)
   .sort(p => p.Year, 'desc');
 
 function n(v) {
@@ -82,6 +82,7 @@ dv.table(
   ])
 );
 ```
+
 ## Reflections / Observations
 
 - Strengths:    

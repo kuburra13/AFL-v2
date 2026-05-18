@@ -46,7 +46,7 @@ TABLE
   disposals,
   marks,
   tackles
-FROM "AFL/Seasons"
+FROM "03 Seasons/"
 WHERE player = this.file.name
 SORT Year DESC
 

@@ -1,90 +1,79 @@
 ---
-Position:
-Watchlist:
-Debut:
+Year: 2026
 ---
-# Harrison Oliver
 
-## Player Info
-- **Position:** 
-- **Date of Birth:** 
-- **Draft Info / Junior Club:** 
 
-## Team History
-```dataviewjs
-const seasons = dv.pages('"AFL/Seasons"')
-  .where(s => s.player_link && s.player_link.path === dv.current().file.path)
-  .sort(s => s.Year, 'desc');
+## Team Comparison (Totals)
 
-const seen = new Set();
-const rows = [];
-
-for (const s of seasons) {
-  const team = s.team ? s.team.toString() : "";
-  if (!seen.has(team)) {
-    seen.add(team);
-    rows.push([s.Year, s.team]);
-  }
-}
-
-dv.table(["First Year", "Team"], rows);
+```dataview
+table team as "Team",
+      length(rows) as "Players",
+      sum(default(rows.games, 0)) as "Games",
+      sum(default(rows.goals, 0)) as "Goals",
+      sum(default(rows.disposals, 0)) as "Disposals",
+      sum(default(rows.marks, 0)) as "Marks",
+      sum(default(rows.tackles, 0)) as "Tackles"
+from ""
+where year = this.year
+group by team
+sort team asc
 ```
 
-## Career Summary
-```dataviewjs
-const seasons = dv.pages('"AFL/Seasons"')
-  .where(p => p.player_link && p.player_link.path === dv.current().file.path);
+## Top Goal Kickers
+```dataview
+TABLE
+  player_link AS Player,
+  team,
+  goals
+FROM "03 Seasons/"
+WHERE year = this.year
+SORT goals DESC
+LIMIT 10
 
-function n(v) {
-  return typeof v === "number" ? v : Number(v) || 0;
-}
+```
+## Top Disposals
+```dataview
+TABLE
+  player_link AS Player,
+  team,
+  disposals
+FROM "03 Seasons/"
+WHERE year = this.year
+SORT disposals DESC
+LIMIT 10
 
-dv.table(
-  ["Games", "AF Rating", "Goals", "Disposals", "Kicks", "Handballs", "Marks", "Tackles", "Clearances"],
-  [[
-    seasons.array().reduce((sum, s) => sum + n(s.games), 0),
-    seasons.array().reduce((sum, s) => sum + n(s.af), 0),
-    seasons.array().reduce((sum, s) => sum + n(s.goals), 0),
-    seasons.array().reduce((sum, s) => sum + n(s.disposals), 0),
-    seasons.array().reduce((sum, s) => sum + n(s.kicks), 0),
-    seasons.array().reduce((sum, s) => sum + n(s.handballs), 0),
-    seasons.array().reduce((sum, s) => sum + n(s.marks), 0),
-    seasons.array().reduce((sum, s) => sum + n(s.tackles), 0),
-    seasons.array().reduce((sum, s) => sum + n(s.clr), 0)
-  ]]
-);
 ```
 
-## Players Career
-```dataviewjs
-const seasons = dv.pages('"AFL/Seasons"')
-  .where(p => p.player_link && p.player_link.path === dv.current().file.path)
-  .sort(p => p.Year, 'desc');
+## Players Who Haven't Debuted
+```dataview
+TABLE
+  player_link AS Player,
+  team
+FROM "Players"
+WHERE Debut = 0
+SORT file.name ASC
 
-function n(v) {
-  return typeof v === "number" ? v : Number(v) || 0;
-}
-
-dv.table(
-  ["Year", "Team", "Games", "AF Rating", "Goals", "Disposals", "Kicks", "Handballs", "Marks", "Tackles", "Clearances"],
-  seasons.map(s => [
-    s.Year ?? "",
-    s.team ?? "",
-    n(s.games),
-    n(s.af),
-    n(s.goals),
-    n(s.disposals),
-    n(s.kicks),
-    n(s.handballs),
-    n(s.marks),
-    n(s.tackles),
-    n(s.clr)
-  ])
-);
 ```
-## Reflections / Observations
 
-- Strengths:    
-- Weaknesses:    
-- Career milestones:    
-- Memorable moments:
+## Players Who have Retired
+```dataview
+TABLE
+  player_link AS Player,
+  team AS Team,
+  Year AS Retired_Year
+FROM "03 Seasons/"
+WHERE retired = true
+SORT Year DESC
+
+```
+
+## Players who need a debut year
+```dataview
+TABLE
+  player_link AS Player,
+  team
+FROM "Players"
+WHERE !Debut
+SORT file.name ASC
+
+```

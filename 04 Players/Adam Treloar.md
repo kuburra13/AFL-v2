@@ -12,7 +12,7 @@ Debut: 2012
 
 ## Team History
 ```dataviewjs
-const seasons = dv.pages('"AFL/Seasons"')
+const seasons = dv.pages('"03 Seasons/"')
   .where(s => s.player_link && s.player_link.path === dv.current().file.path)
   .sort(s => s.Year, 'desc');
 
@@ -32,7 +32,7 @@ dv.table(["First Year", "Team"], rows);
 
 ## Career Summary
 ```dataviewjs
-const seasons = dv.pages('"AFL/Seasons"')
+const seasons = dv.pages('"03 Seasons/"')
   .where(p => p.player_link && p.player_link.path === dv.current().file.path);
 
 function n(v) {
@@ -57,7 +57,7 @@ dv.table(
 
 ## Players Career
 ```dataviewjs
-const seasons = dv.pages('"AFL/Seasons"')
+const seasons = dv.pages('"03 Seasons/"')
   .where(p => p.player_link && p.player_link.path === dv.current().file.path)
   .sort(p => p.Year, 'desc');
 

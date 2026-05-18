@@ -9,13 +9,9 @@ Here’s a **plain-English explanation of AFL Fantasy points**, what they mean, 
 **Fantasy points** are a numerical score given to each player based on **how much they contributed statistically in a match**.
 
 They’re used in:
-
-- **AFL Fantasy (official)**
-    
-- Casual fantasy leagues
-    
-- Media analysis (as a quick “impact” snapshot)
-    
+- **AFL Fantasy (official)**    
+- Casual fantasy leagues    
+- Media analysis (as a quick “impact” snapshot)    
 
 The idea is simple:  
 👉 _Every action on the field is worth a set number of points._
@@ -45,19 +41,12 @@ This is the **standard AFL Fantasy** scoring (not SuperCoach — that’s differ
 ## What _doesn’t_ count?
 
 These **do not earn points directly**:
-
-- Contested vs uncontested possessions
-    
-- Inside 50s
-    
-- Clearances
-    
-- Intercepts
-    
-- Disposal efficiency %
-    
-- Pressure acts
-    
+- Contested vs uncontested possessions    
+- Inside 50s    
+- Clearances    
+- Intercepts    
+- Disposal efficiency %    
+- Pressure acts    
 
 (They matter in real footy — just not directly in Fantasy scoring.)
 
@@ -66,19 +55,12 @@ These **do not earn points directly**:
 ## Example: how a player’s score is built
 
 Let’s say a midfielder finishes with:
-
-- 20 kicks → 20 × 3 = **60**
-    
-- 10 handballs → 10 × 2 = **20**
-    
-- 8 marks → 8 × 3 = **24**
-    
-- 6 tackles → 6 × 4 = **24**
-    
-- 1 goal → **6**
-    
-- 1 free kick against → **–3**
-    
+- 20 kicks → 20 × 3 = **60**    
+- 10 handballs → 10 × 2 = **20**    
+- 8 marks → 8 × 3 = **24**    
+- 6 tackles → 6 × 4 = **24**    
+- 1 goal → **6**    
+- 1 free kick against → **–3**    
 
 ### Total Fantasy score:
 
@@ -92,21 +74,15 @@ That’s a **very strong AFL Fantasy game**.
 
 Fantasy rewards:
 
-- 🏃 **High possession players**
-    
-- 🔁 **Midfielders and rebounding defenders**
-    
-- 🧱 **Tackling machines**
-    
+- 🏃 **High possession players**    
+- 🔁 **Midfielders and rebounding defenders**    
+- 🧱 **Tackling machines**    
 
 Fantasy penalises:
 
-- Key forwards (low disposals, goal-reliant)
-    
-- Lockdown defenders
-    
-- Players with poor discipline (free kicks against)
-    
+- Key forwards (low disposals, goal-reliant)    
+- Lockdown defenders    
+- Players with poor discipline (free kicks against)    
 
 ---
 
@@ -125,23 +101,15 @@ Fantasy penalises:
 ## Key Fantasy concepts explained simply
 
 ### 📈 Ceiling
-
-- A player’s **best possible score**
-    
-- High ceiling = match-winning Fantasy player
-    
+- A player’s **best possible score**    
+- High ceiling = match-winning Fantasy player    
 
 ### 📉 Floor
-
-- A player’s **worst likely score**
-    
-- High floor = consistency
-    
+- A player’s **worst likely score**    
+- High floor = consistency    
 
 ### 🔄 Role dependency
-
-- Fantasy scores depend heavily on **role**, not talent
-    
+- Fantasy scores depend heavily on **role**, not talent    
 - Same player, different role = different score
     
 

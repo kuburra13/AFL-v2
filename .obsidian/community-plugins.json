@@ -2,5 +2,6 @@
   "dataview",
   "local-backup",
   "obsidian-git",
-  "multi-properties"
+  "multi-properties",
+  "global-search-and-replace"
 ]

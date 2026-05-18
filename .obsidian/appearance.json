@@ -1,5 +1,7 @@
 {
   "theme": "obsidian",
   "cssTheme": "Dracula for Obsidian",
-  "showRibbon": true
+  "showRibbon": true,
+  "interfaceFontFamily": "OpenDyslexic",
+  "textFontFamily": "OpenDyslexic"
 }
