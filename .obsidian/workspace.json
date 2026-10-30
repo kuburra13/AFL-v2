@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 inbox/clean recap for next time.md",
+                "file": "AI chat/reviews.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "clean recap for next time"
+              "title": "reviews"
             }
           }
         ]
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -53,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"year\"]",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -186,7 +188,6 @@
   "left-ribbon": {
     "hiddenItems": {
       "obsidian-git:Open Git source control": false,
-      "local-backup:Run local backup": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -198,41 +199,41 @@
   },
   "active": "6a932df630f75704",
   "lastOpenFiles": [
-    "03 Seasons/2025/Sam Taylor 2025.md",
+    "03 Seasons/2026/Jaeger O'Meara 2026.md",
+    "03 Seasons/2026/Sam Sturt 2026.md",
     "01 inbox/clean recap for next time.md",
+    "04 Players/Sam Cumming.md",
+    "04 Players/Sam Allen.md",
+    "04 Players/Ryda Luke.md",
+    "04 Players/Riley Onley.md",
+    "04 Players/Riley Hamilton.md",
+    "04 Players/Paddy Cross.md",
+    "04 Players/Oskar Taylor.md",
+    "04 Players/Oscar Berry.md",
+    "04 Players/Oliver Greeves.md",
+    "04 Players/Noah Roberts Thomson.md",
+    "04 Players/Noah Chamberlain.md",
+    "04 Players/Nicholas Driscoll.md",
+    "04 Players/Mitchell Marsh.md",
+    "04 Players/Mitch Zadow.md",
+    "04 Players/Milan Murdock.md",
+    "04 Players/Max Kondogiannis.md",
+    "04 Players/Matthew Leray.md",
+    "04 Players/Louis Emmett.md",
+    "04 Players/Liam Hetherton.md",
+    "04 Players/Leon Kickett.md",
+    "04 Players/Latrelle Pickett.md",
+    "04 Players/Lachy Dovaston.md",
+    "04 Players/Lachlan Carmichael.md",
+    "fix_season_files.ps1",
+    "new_player_notes",
+    "04 Players/04 Players",
     "03 Seasons/2025.zip",
-    "03 Seasons/2025/Will Day 2025.md",
-    "03 Seasons/2025/Will Power 2025.md",
-    "03 Seasons/2025/Dylan Williams 2025.md",
-    "03 Seasons/2025/Tom Brown 2025.md",
-    "03 Seasons/2025/Oscar Allen 2025.md",
-    "03 Seasons/2025/Luke McDonald 2025.md",
-    "03 Seasons/2025/Jack Darling 2025.md",
-    "04 Players/Charlie Ballard.md",
-    "04 Players/Jack Darling.md",
-    "04 Players/Harvey Thomas.md",
-    "players.md",
     "04 Players.zip",
-    "03 Seasons/2026/Aaron Cadman 2026.md",
-    "vault layout.md",
-    "03 Seasons/2026/Archer May 2026.md",
-    "03 Seasons/2026/Archer Day-Wicks 2026.md",
-    "03 Seasons/2026/Alex Pearce 2026.md",
-    "03 Seasons/2026/Alex Neal-Bullen 2026.md",
-    "03 Seasons/2026/Alex Dodson 2026.md",
-    "03 Seasons/2026/Alex Davis 2026.md",
-    "03 Seasons/2026/Aiden Riddle 2026.md",
-    "03 Seasons/2026/Aidan Johnson 2026.md",
-    "03 Seasons/2026/Aidan Corr 2026.md",
-    "03 Seasons/2026/Adam Treloar 2026.md",
-    "03 Seasons/2026/Adam Saad 2026.md",
     "obsidian.lnk",
     "05 Teams/2024",
     "05 Teams/2023",
     "05 Teams/2022",
-    "05 Teams/2020",
-    "05 Teams/2019",
-    "05 Teams/2018",
-    "05 Teams/2017"
+    "05 Teams/2020"
   ]
 }

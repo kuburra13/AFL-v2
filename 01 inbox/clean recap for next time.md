@@ -4,7 +4,8 @@ Here's a clean recap for next time:
 
 **What's already done (permanent):**
 
-- All team codes mapped (`[[ADEL]]`, `[[BL]]`, `[[CARL]]` etc.)
+- All team codes 
+- mapped (`[[ADEL]]`, `[[BL]]`, `[[CARL]]` etc.)
 - Player list extraction method from afl.com.au works
 - Scraper script is proven and working
 - Vault player list is known (822 players)

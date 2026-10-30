@@ -3,9 +3,9 @@ player: Sam Sturt
 player_link: "[[Sam Sturt]]"
 team: "[[FRE]]"
 Year: 2026
-games: 0
+games:
 af: 0
-rating: 0
+rating: 87.1
 goals: 0
 disposals: 0
 marks: 0
