@@ -1,7 +1,7 @@
 # Project instructions
-**Explicit instructions** work better when you have a clear outcome in mind, specific formatting or structure requirements, constraints I need to respect (like "only use sources from before 1900" or "keep it under 500 words"), or a workflow you've already figured out.
+**Explicit instructions** work better when you have a clear outcome in mind, specific formatting or structure requirements, constraints I ne!ged to respect (like "only use sources from before 1900" or "keep it under 500 words"), or a workflow you've already figured out.
 
-**Vague/minimal info** works fine when you're still exploring and want me to help shape the direction, the task is fairly standard (e.g. "summarise this document"), or you trust me to make reasonable assumptions and correct as we go.
+**Vague/minimal info** works fine when you're still exploring and want me to help shape the direction, the task is fairly standard (e.g. "sugmmarise this document"), or you trust me to make reasonable assumptions and correct as we go.
 
 For your Obsidian-heavy, multi-vault setup specifically, I'd suggest a **middle path**: a brief project brief covering the purpose, key constraints, and your preferred output format — but you don't need to over-specify. I can infer a lot from context, and we can iterate
 
